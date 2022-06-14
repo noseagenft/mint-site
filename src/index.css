@@ -1,0 +1,29 @@
+body {
+  background-color: #f000fe;
+  background-image: url(./noseagebg.png);
+  transition: ease-in-out 2s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
