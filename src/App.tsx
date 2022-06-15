@@ -138,34 +138,48 @@ const App = () => {
                 multiTextLoop={true}
               />
             </ChatBubble>
-
-            <Home
-              candyMachineId={candyMachineId}
-              connection={connection}
-              txTimeout={DEFAULT_TIMEOUT}
-              rpcHost={rpcHost}
-              network={network}
-            />
-            <div style={{ margin: "auto", marginTop: 10, textAlign: "center" }}>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://twitter.com/noseagenft"
+            <div
+              style={{
+                position: "fixed",
+                width: "100%",
+                bottom: 0,
+                paddingBottom: 30,
+              }}
+            >
+              <Home
+                candyMachineId={candyMachineId}
+                connection={connection}
+                txTimeout={DEFAULT_TIMEOUT}
+                rpcHost={rpcHost}
+                network={network}
+              />
+              <div
+                style={{ margin: "auto", marginTop: 10, textAlign: "center" }}
               >
-                birdapp
-              </a>{" "}
-              |{" "}
-              <a target="_blank" rel="noreferrer" href="https://noseagenft.com">
-                website
-              </a>{" "}
-              |{" "}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://discord.gg/t5wc8x2Htz"
-              >
-                discord
-              </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/noseagenft"
+                >
+                  birdapp
+                </a>{" "}
+                |{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://noseagenft.com"
+                >
+                  website
+                </a>{" "}
+                |{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://discord.gg/t5wc8x2Htz"
+                >
+                  discord
+                </a>
+              </div>
             </div>
           </WalletDialogProvider>
         </WalletProvider>
