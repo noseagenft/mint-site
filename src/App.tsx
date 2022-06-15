@@ -132,6 +132,7 @@ const App = () => {
                   "AMA is happening on the discord rn? I gotta check it out.",
                   "I will mint and immediately list for a loss.",
                   "Buy the top, sell the bottom.",
+                  "I heard collab managers wouldn't even take payment to shill these noses... BuLlIsH!"
                 ]}
                 multiTextDelay={999}
                 typeSpeed={10}
