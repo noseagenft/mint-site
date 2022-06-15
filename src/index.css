@@ -1,9 +1,10 @@
 body {
-  background-color: #f000fe;
+  background-color: #5100fe;
   background-image: url(./noseagebg.png);
   transition: ease-in-out 2s;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: contain;
   margin: 0;
   font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
