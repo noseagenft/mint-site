@@ -95,7 +95,7 @@ const App = () => {
                   fontSize: "1em",
                   lineHeight: "1.25em",
                 }}
-                startDelay={999}
+                startDelay={1200}
                 cursorColor="#3F3D56"
                 multiText={[
                   "Noses are the next Okay Bears.",
@@ -129,14 +129,17 @@ const App = () => {
                   "Wow the mint button changes text every time I refresh.",
                   "Why didn't the dev just make it cycle like these texts?",
                   "I should be asking more important questions.",
-                  "AMA is happening on the discord rn? I gotta check it out.",
+                  "Is AMA is happening on the discord rn? I gotta check it out.",
                   "I will mint and immediately list for a loss.",
                   "Buy the top, sell the bottom.",
                   "I heard collab managers wouldn't even take payment to shill these noses... BuLlIsH!",
                   "They're taking mint funds to buy what? A toy lambo? Yeah, sounds about right.",
                   "I will shill this in all of the discords that I'm in.",
+                  "🎈🎈",
+                  "$SNIFF > $DUST",
+                  "Our dev could be streaming right now @ https://twitch.tv/ftwyan",
                 ]}
-                multiTextDelay={999}
+                multiTextDelay={1200}
                 typeSpeed={10}
                 multiTextLoop={true}
               />
