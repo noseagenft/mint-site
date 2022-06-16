@@ -95,7 +95,7 @@ const App = () => {
                   fontSize: "1em",
                   lineHeight: "1.25em",
                 }}
-                startDelay={1200}
+                startDelay={2000}
                 cursorColor="#3F3D56"
                 multiText={[
                   "Noses are the next Okay Bears.",
@@ -139,7 +139,7 @@ const App = () => {
                   "$SNIFF > $DUST",
                   "Our dev could be streaming right now @ https://twitch.tv/ftwyan",
                 ]}
-                multiTextDelay={1200}
+                multiTextDelay={2000}
                 typeSpeed={10}
                 multiTextLoop={true}
               />
