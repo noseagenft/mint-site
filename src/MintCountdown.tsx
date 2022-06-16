@@ -74,8 +74,8 @@ export const MintCountdown: React.FC<MintCountdownProps> = ({
     seconds,
     completed,
   }: MintCountdownRender) => {
-    hours += days * 24 + 24;
-    if (!completed) {
+    hours += days * 24;
+    if (completed) {
       return status ? <span className={classes.done}>{status}</span> : null;
     } else {
       return (
